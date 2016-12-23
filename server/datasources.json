@@ -1,12 +1,22 @@
 {
-  "mysqlInUse": {
+  "mysqlOnHold": {
     "host": "localhost",
     "port": 3306,
     "database": "meucarreto_api",
     "username": "root",
     "password": "debonimatos",
-    "name": "mysqlInUse",
+    "name": "mysqlOnHold",
     "user": "root",
+    "connector": "mysql"
+  },
+  "mysqlInUse": {
+    "host": "meucarreto-rds-db-mysql.c6avbuvktl2i.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "database": "meucarreto_api",
+    "username": "meuCarretoRoot",
+    "password": "*meuCar2015*",
+    "name": "mysqlInUse",
+    "user": "meuCarretoRoot",
     "connector": "mysql"
   }
 }

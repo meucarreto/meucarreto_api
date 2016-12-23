@@ -2,6 +2,11 @@ var loopback = require('loopback');
 var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
+var LoopBackContext = require('loopback-context');
+
+var ctx = LoopBackContext.getCurrentContext();
+
+console.log('teste', ctx);
 
 app.start = function() {
   // start the web server
