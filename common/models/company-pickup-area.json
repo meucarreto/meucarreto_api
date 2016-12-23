@@ -1,0 +1,21 @@
+{
+  "name": "company_pickup_area",
+  "plural": "company_pickup_areas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "company_id": {
+      "type": "string"
+    },
+    "working_area_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

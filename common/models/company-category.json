@@ -1,0 +1,24 @@
+{
+  "name": "company_category",
+  "plural": "company_categories",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "company_id": {
+      "type": "string"
+    },
+    "category_id": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

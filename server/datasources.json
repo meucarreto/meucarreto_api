@@ -1,0 +1,12 @@
+{
+  "mysqlInUse": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "meucarreto_api",
+    "username": "root",
+    "password": "debonimatos",
+    "name": "mysqlInUse",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

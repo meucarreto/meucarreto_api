@@ -1,0 +1,27 @@
+{
+  "name": "working_area",
+  "plural": "working_areas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "estado": {
+      "type": "string"
+    },
+    "uf": {
+      "type": "string"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "bairro": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
