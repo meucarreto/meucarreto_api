@@ -1,3 +1,3 @@
 #!/bin/bash
-forever stopall
+pm2 stop all
 exit 0
