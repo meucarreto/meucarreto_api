@@ -1,14 +1,4 @@
 {
-  "mysqlOnHold": {
-    "host": "localhost",
-    "port": 3306,
-    "database": "meucarreto_api",
-    "username": "root",
-    "password": "debonimatos",
-    "name": "mysqlOnHold",
-    "user": "root",
-    "connector": "mysql"
-  },
   "mysqlInUse": {
     "host": "meucarreto.cjptni25nl7a.us-east-1.rds.amazonaws.com",
     "port": 3306,
