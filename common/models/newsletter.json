@@ -1,23 +1,19 @@
 {
-  "name": "company",
-  "plural": "companies",
+  "name": "newsletter",
+  "plural": "newsletters",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "featured_home": {
-      "type": "number"
-    },
-    "slug": {
+    "email": {
       "type": "string"
     },
-    "thumb": {
+    "optin_origin": {
+      "type": "string"
+    },
+    "active": {
       "type": "string"
     },
     "created_at": {

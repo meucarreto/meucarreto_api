@@ -48,5 +48,13 @@
   "company_vehicle": {
     "dataSource": "mysqlInUse",
     "public": true
+  },
+  "contact_form": {
+    "dataSource": "mysqlInUse",
+    "public": true
+  },
+  "newsletter": {
+    "dataSource": "mysqlInUse",
+    "public": true
   }
 }

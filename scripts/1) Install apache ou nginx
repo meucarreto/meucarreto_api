@@ -22,9 +22,12 @@
 # Install pm2 - Keeps processes running
 14) sudo npm install pm2@latest -g
 #Creat folders where files will be located
-cd /var/www/html/FODER_NAME
-10) Cria os diretorios onde vai ficar a aplicacao
-11) reza muito
+15) cd /var/www/html
+16) sudo mkdir FOLDER_NAME
+# Create virtualHost folder to use content in port 80
+17) cd /etc/httpd/conf
+18) sudo mkdir virtualhosts
+# Create a virtualHost file that will make 
 
 Pegar todas as tarefas rodando no apache - ps -ef
 Matar alguma tarefa - kill -9 <num tarefa>

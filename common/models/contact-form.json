@@ -1,6 +1,6 @@
 {
-  "name": "company",
-  "plural": "companies",
+  "name": "contact_form",
+  "plural": "contact_forms",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -8,16 +8,18 @@
   },
   "properties": {
     "name": {
-      "type": "string",
-      "required": true
-    },
-    "featured_home": {
-      "type": "number"
-    },
-    "slug": {
       "type": "string"
     },
-    "thumb": {
+    "email": {
+      "type": "string"
+    },
+    "telefone": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "message": {
       "type": "string"
     },
     "created_at": {
